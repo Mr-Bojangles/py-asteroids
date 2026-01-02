@@ -1,8 +1,10 @@
 import pygame
 
+VERSION = pygame.version.ver
+
 
 def main():
-    print("Starting Asteroids with pygame version: VERSION")
+    print(f"Starting Asteroids with pygame version: {VERSION}")
 
 
 if __name__ == "__main__":
